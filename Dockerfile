@@ -5,6 +5,7 @@ RUN apk add --no-cache \
     bash \
     python3 \
     py3-pip \
+    jq \
     postgresql-client \
     ca-certificates \
     && pip3 install --no-cache-dir --break-system-packages awscli \
